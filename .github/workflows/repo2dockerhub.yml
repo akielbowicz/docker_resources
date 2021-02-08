@@ -11,6 +11,6 @@ jobs:
     - name: update jupyter dependencies with repo2docker
       uses: jupyterhub/repo2docker-action@master
       with:
-        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        DOCKER_REGISTRY: "gcr.io"
+        DOCKER_USERNAME: ${{ github.repository_owner }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PAT }}
+        DOCKER_REGISTRY: "ghcr.io"
