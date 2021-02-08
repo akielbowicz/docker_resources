@@ -1,1 +1,1 @@
-# docker_resources
+Ejemplo de repositorio de Pluto.jl en Binder
