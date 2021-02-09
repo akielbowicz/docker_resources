@@ -1,1 +1,1 @@
-FROM ghcr.io/akielbowicz/docker_resources:e99be2e97769
+FROM ghcr.io/akielbowicz/docker_resources:latest
